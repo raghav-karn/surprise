@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Surprise!</title>
+
+		<style>
+			
+			/* Basic CSS comment */	
+			body {
+				background: #BBB;
+				color: white;
+				width: 960px;
+				margin: 0 auto;
+				color: black;
+			}
+
+			h1 {
+				font-size: 60px;
+				color: #333	;
+			}
+
+			img {
+				width: 400px;
+				height: 300px;
+				/*visibility: hidden;*/
+			}
+
+		</style>
+
+		<script>
+
+			/*This is an event*/
+			//alert("I'm annoying");
+			
+			var username = prompt("Hi! What's your name");
+			var cars = new Array("BMW", "Ferrari", "Ford", "Bugatti");
+
+			console.log(username);
+			console.log(cars);
+
+
+			if(username==="Raghav") {
+				document.write("<h1>Hello " + username + "! You won a " + cars[0] + "!</h1>");
+			}
+
+			else if(username==="Chris") {
+				document.write("<h1>Hello " + username + "! You won a " + cars[0] + "!</h1>")
+			}
+
+			else {
+				document.write("<h1>Hello " + username + "!</h1>");
+			}
+
+
+		</script>
+
+	</head>
+ 	
+	<body>
+		<img src="ferrari.jpeg" alt="Ferrari" id="ferrari">
+	</body>
+
+</html>
